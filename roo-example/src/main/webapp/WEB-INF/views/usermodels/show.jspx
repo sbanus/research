@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_research_entity_UserModel" object="${usermodel}" path="/usermodels" z="AMMbfo7ljnqf0b6Es5p9ecY3wzw=">
+        <field:display field="name" id="s_com_research_entity_UserModel_name" object="${usermodel}" z="EK/Yq16Fv5uyNC6RpxpczlmeA18="/>
+        <field:display field="password" id="s_com_research_entity_UserModel_password" object="${usermodel}" z="jZAJtnQz75+K9rBVRkAFKQ9RCBo="/>
+        <field:display field="firstname" id="s_com_research_entity_UserModel_firstname" object="${usermodel}" z="MbCjdB80h2L044FOvCoM9uCH5nk="/>
+        <field:display field="lastName" id="s_com_research_entity_UserModel_lastName" object="${usermodel}" z="5WVdKc/yHi8l8/D8zMeSt37qqzU="/>
+        <field:display field="email" id="s_com_research_entity_UserModel_email" object="${usermodel}" z="Qvh1LkIaJzbZ1+bZl7H2/VmlgKY="/>
+    </page:show>
+</div>

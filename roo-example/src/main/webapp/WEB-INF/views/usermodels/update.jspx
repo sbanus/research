@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_research_entity_UserModel" modelAttribute="userModel" path="/usermodels" versionField="Version" z="3NDgJvTZael09XCLmFo0EHFWxWM=">
+        <field:input field="name" id="c_com_research_entity_UserModel_name" max="15" required="true" z="Xzpeta4i8SGeo3uSaCRzo/2aRhc="/>
+        <field:input field="password" id="c_com_research_entity_UserModel_password" max="15" required="true" z="QHPCiz6HAhPJPcvwrIfAsaK4Jmo="/>
+        <field:input field="firstname" id="c_com_research_entity_UserModel_firstname" max="20" required="true" z="pnR4cdhxnJlsVCjp9jmwc69MdhA="/>
+        <field:input field="lastName" id="c_com_research_entity_UserModel_lastName" max="20" z="S3Hm7j/cEHbPrd+3NkT/BOnjjjk="/>
+        <field:input field="email" id="c_com_research_entity_UserModel_email" required="true" validationMessageCode="field_invalid_email" z="jxT1JgTPx7DNvXE4bYkupVt0JD8="/>
+        <field:simple field="favours" id="c_com_research_entity_UserModel_favours" messageCode="entity_reference_not_managed" messageCodeAttribute="Favour Model" z="RkfD1EgpD1GR0eZgFnMcsQ83F1I="/>
+    </form:update>
+</div>
